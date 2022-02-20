@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 
-export default function Home() {
+export default function Lesson() {
 const router = useRouter();
 
   return (
@@ -14,7 +14,7 @@ const router = useRouter();
   <p>
     Example: <code>const myVariable = 'Hello World'</code>
   </p>
-  <button type="button" onClick={() => router.push('/quiz')} >
+  <button type="button" onClick={() => router.push('lesson/1/quiz/1')} >
     Quiz
   </button>
  </div>
